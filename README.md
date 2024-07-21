@@ -9,19 +9,38 @@ This is a React Native application for a quiz game. Users can input their userna
 ### Prerequisites
 
 - **Node.js**: Ensure you have [Node.js](https://nodejs.org/) installed on your system.
-- **Expo CLI**: Install Expo CLI globally by running `npm install -g expo-cli`.
+- **Expo CLI**: Install Expo CLI globally by running  
+    ```sh
+    npm install -g expo-cli
+    ```
 
 ### Install Dependencies
-- running cmd `npm install`
+- running cmd 
+    ```sh
+    npm install
+    ```
  
 ### Install Additional Dependencies
-- running cmd `expo install @react-native-async-storage/async-storage @react-navigation/native @react-navigation/stack react-native-safe-area-context react-native-screens`
-- install the Expo-specific packages for React Navigation, running cmd `expo install @react-navigation/native @react-navigation/stack`
+- running cmd 
+    ```sh
+    expo install @react-native-async-storage/async-storage @react-navigation/native @react-navigation/stack react-native-safe-area-context react-native-screens
+    ```
+- install the Expo-specific packages for React Navigation, running cmd
+    ```sh
+    expo install @react-navigation/native @react-navigation/stack
+    ```
 
 
 ## Running the Application
 - download application **Expo** in mobile
-- running cmd `npx expo start` or `expo start`
+- running cmd 
+  ```sh
+    npx expo start
+  ```
+  or 
+    ```sh
+    expo start
+    ```
 - scan qrcode for open application in mobile by Expo
 
 ## Usage
